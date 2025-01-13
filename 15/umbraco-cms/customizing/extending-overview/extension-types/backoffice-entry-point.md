@@ -31,7 +31,7 @@ The Entry Point manifest type is used to register an entry point for the backoff
 ```typescript
 import { extensionRegistry } from "@umbraco-cms/extension-registry"
 
-const manifest = {
+const extension = {
   {
     type: '', // type of extension
     alias: '', // unique alias for the extension
